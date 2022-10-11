@@ -1,8 +1,18 @@
 const helloWorld = new Vue({
-  el: '#helloVue',
+  el: '#book',
   data: {
-      title: "HELLO WOwwwwRLD!!!!",
-      message: "This is my first Vue template",
+      title: "The Sirens of Titan",
+      author: "Kurt Vonnegut",
+      summary: "This is a summary of the series of Titan",
+      showDetail: false
+  },
+  methods: {
+    sayHello: function(){
+      alert(this.tittle)
+    },
+    toggleDetails: function(){
+      this.showDetail = !this.showDetail;
+    }
   }
 })
 
