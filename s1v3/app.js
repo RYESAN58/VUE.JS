@@ -16,15 +16,15 @@ const helloWorld = new Vue({
   }
 })
 
-const example = new Vue({
-  el: '#example',
-  data: {
-      title: "Hello",
-      message: "Thusi is your daily cat-firmation",
-      name: "Chewie",
-      img: {
-        src: 'https://placeimg.com/200/200/animals',
-        alt: 'cat',
-      }
-  }
-})
+// const example = new Vue({
+//   el: '#example',
+//   data: {
+//       title: "Hello",
+//       message: "Thusi is your daily cat-firmation",
+//       name: "Chewie",
+//       img: {
+//         src: 'https://placeimg.com/200/200/animals',
+//         alt: 'cat',
+//       }
+//   }
+// })
