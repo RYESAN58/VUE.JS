@@ -10,8 +10,8 @@ const helloWorld = new Vue({
     sayHello: function(){
       alert(this.tittle)
     },
-    toggleDetails: function(){
-      this.showDetail = !this.showDetail;
+    filtered: function(){
+      
     }
   }
 })
